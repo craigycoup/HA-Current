@@ -1,0 +1,399 @@
+jimmys_iphone:
+  hide_if_away: false
+  icon:
+  mac: '879814'
+  name: Jimmy’s iPhone
+  picture:
+  track: true
+
+stephanies_iphone:
+  hide_if_away: false
+  icon:
+  mac: '883974'
+  name: Stephanie’s iPhone
+  picture:
+  track: true
+
+jimmys_ipad:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Jimmy's iPad
+  picture:
+  track: true
+
+74_d4_35_fe_8e_88:
+  hide_if_away: false
+  icon:
+  mac: 74:D4:35:FE:8E:88
+  name: 74 d4 35 fe 8e 88
+  picture:
+  track: false
+
+ac_84_c6_2d_9a_24:
+  hide_if_away: false
+  icon:
+  mac: AC:84:C6:2D:9A:24
+  name: ac 84 c6 2d 9a 24
+  picture:
+  track: false
+
+78_11_dc_de_f3_24:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:DE:F3:24
+  name: 78 11 dc de f3 24
+  picture:
+  track: false
+
+ec_e5_12_12_8f_91:
+  hide_if_away: false
+  icon:
+  mac: EC:E5:12:12:8F:91
+  name: ec e5 12 12 8f 91
+  picture:
+  track: false
+
+00_15_5d_00_1f_00:
+  hide_if_away: false
+  icon:
+  mac: 00:15:5D:00:1F:00
+  name: 00 15 5d 00 1f 00
+  picture:
+  track: false
+
+00_15_5d_00_1f_08:
+  hide_if_away: false
+  icon:
+  mac: 00:15:5D:00:1F:08
+  name: 00 15 5d 00 1f 08
+  picture:
+  track: false
+
+04_4b_ed_b6_65_85:
+  hide_if_away: false
+  icon:
+  mac: 04:4B:ED:B6:65:85
+  name: 04 4b ed b6 65 85
+  picture:
+  track: false
+
+00_15_5d_00_1f_07:
+  hide_if_away: false
+  icon:
+  mac: 00:15:5D:00:1F:07
+  name: 00 15 5d 00 1f 07
+  picture:
+  track: false
+
+78_11_dc_72_05_81:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:72:05:81
+  name: 78 11 dc 72 05 81
+  picture:
+  track: false
+
+2c_3a_e8_4e_6f_ae:
+  hide_if_away: false
+  icon:
+  mac: 2C:3A:E8:4E:6F:AE
+  name: 2c 3a e8 4e 6f ae
+  picture:
+  track: false
+
+00_15_5d_00_1f_01:
+  hide_if_away: false
+  icon:
+  mac: 00:15:5D:00:1F:01
+  name: 00 15 5d 00 1f 01
+  picture:
+  track: false
+
+80_7d_3a_68_37_39:
+  hide_if_away: false
+  icon:
+  mac: 80:7D:3A:68:37:39
+  name: 80 7d 3a 68 37 39
+  picture:
+  track: false
+
+00_15_5d_00_1f_05:
+  hide_if_away: false
+  icon:
+  mac: 00:15:5D:00:1F:05
+  name: 00 15 5d 00 1f 05
+  picture:
+  track: false
+
+80_7d_3a_68_35_b6:
+  hide_if_away: false
+  icon:
+  mac: 80:7D:3A:68:35:B6
+  name: 80 7d 3a 68 35 b6
+  picture:
+  track: false
+
+5c_cf_7f_66_7a_4b:
+  hide_if_away: false
+  icon:
+  mac: 5C:CF:7F:66:7A:4B
+  name: 5c cf 7f 66 7a 4b
+  picture:
+  track: false
+
+98_5f_d3_0e_b1_c3:
+  hide_if_away: false
+  icon:
+  mac: 98:5F:D3:0E:B1:C3
+  name: 98 5f d3 0e b1 c3
+  picture:
+  track: false
+
+40_9f_38_05_6c_e9:
+  hide_if_away: false
+  icon:
+  mac: 40:9F:38:05:6C:E9
+  name: 40 9f 38 05 6c e9
+  picture:
+  track: false
+
+00_24_1d_7d_ab_c4:
+  hide_if_away: false
+  icon:
+  mac: 00:24:1D:7D:AB:C4
+  name: 00 24 1d 7d ab c4
+  picture:
+  track: false
+
+5c_f9_38_ca_0b_49:
+  hide_if_away: false
+  icon:
+  mac: 5C:F9:38:CA:0B:49
+  name: 5c f9 38 ca 0b 49
+  picture:
+  track: false
+
+dc_4f_22_4b_c2_93:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:4B:C2:93
+  name: dc 4f 22 4b c2 93
+  picture:
+  track: false
+
+dc_4f_22_c5_d6_1b:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:C5:D6:1B
+  name: dc 4f 22 c5 d6 1b
+  picture:
+  track: false
+
+dc_4f_22_c5_9c_84:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:C5:9C:84
+  name: dc 4f 22 c5 9c 84
+  picture:
+  track: false
+
+80_7d_3a_68_35_7e:
+  hide_if_away: false
+  icon:
+  mac: 80:7D:3A:68:35:7E
+  name: 80 7d 3a 68 35 7e
+  picture:
+  track: false
+
+a4_d9_31_ce_cd_5b:
+  hide_if_away: false
+  icon:
+  mac: A4:D9:31:CE:CD:5B
+  name: Stephanie (router)
+  picture:
+  track: true
+
+40_98_ad_99_87_f3:
+  hide_if_away: false
+  icon:
+  mac: 40:98:AD:99:87:F3
+  name: Jimmy (router)
+  picture:
+  track: true
+
+48_44_f7_d0_bf_4d:
+  hide_if_away: false
+  icon:
+  mac: 48:44:F7:D0:BF:4D
+  name: 48 44 f7 d0 bf 4d
+  picture:
+  track: false
+
+64_20_0c_99_25_6e:
+  hide_if_away: false
+  icon:
+  mac: 64:20:0C:99:25:6E
+  name: 64 20 0c 99 25 6e
+  picture:
+  track: false
+
+b4_e6_2d_25_35_73:
+  hide_if_away: false
+  icon:
+  mac: B4:E6:2D:25:35:73
+  name: b4 e6 2d 25 35 73
+  picture:
+  track: true
+
+60_01_94_ad_51_25:
+  hide_if_away: false
+  icon:
+  mac: 60:01:94:AD:51:25
+  name: 60 01 94 ad 51 25
+  picture:
+  track: true
+
+dc_4f_22_c5_bc_92:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:C5:BC:92
+  name: dc 4f 22 c5 bc 92
+  picture:
+  track: true
+
+84_f3_eb_b0_f7_16:
+  hide_if_away: false
+  icon:
+  mac: 84:F3:EB:B0:F7:16
+  name: 84 f3 eb b0 f7 16
+  picture:
+  track: true
+
+dc_4f_22_c5_a5_b1:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:C5:A5:B1
+  name: dc 4f 22 c5 a5 b1
+  picture:
+  track: true
+
+68_c6_3a_cd_d0_25:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:CD:D0:25
+  name: 68 c6 3a cd d0 25
+  picture:
+  track: true
+
+dc_4f_22_c5_9c_7d:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:C5:9C:7D
+  name: dc 4f 22 c5 9c 7d
+  picture:
+  track: true
+
+a0_c9_a0_67_cc_75:
+  hide_if_away: false
+  icon:
+  mac: A0:C9:A0:67:CC:75
+  name: a0 c9 a0 67 cc 75
+  picture:
+  track: true
+
+c8_3c_85_04_ff_9f:
+  hide_if_away: false
+  icon:
+  mac: C8:3C:85:04:FF:9F
+  name: c8 3c 85 04 ff 9f
+  picture:
+  track: true
+
+44_32_c8_bb_45_8a:
+  hide_if_away: false
+  icon:
+  mac: 44:32:C8:BB:45:8A
+  name: 44 32 c8 bb 45 8a
+  picture:
+  track: true
+
+d0_50_99_1b_74_88:
+  hide_if_away: false
+  icon:
+  mac: D0:50:99:1B:74:88
+  name: d0 50 99 1b 74 88
+  picture:
+  track: true
+
+88_51_fb_0d_f5_d2:
+  hide_if_away: false
+  icon:
+  mac: 88:51:FB:0D:F5:D2
+  name: 88 51 fb 0d f5 d2
+  picture:
+  track: true
+
+e0_33_8e_77_52_0b:
+  hide_if_away: false
+  icon:
+  mac: E0:33:8E:77:52:0B
+  name: e0 33 8e 77 52 0b
+  picture:
+  track: true
+
+9c_35_eb_dc_ae_f2:
+  hide_if_away: false
+  icon:
+  mac: 9C:35:EB:DC:AE:F2
+  name: 9c 35 eb dc ae f2
+  picture:
+  track: true
+
+50_a6_7f_ac_45_7a:
+  hide_if_away: false
+  icon:
+  mac: 50:A6:7F:AC:45:7A
+  name: 50 a6 7f ac 45 7a
+  picture:
+  track: true
+
+e0_31_9e_1c_ac_85:
+  hide_if_away: false
+  icon:
+  mac: E0:31:9E:1C:AC:85
+  name: e0 31 9e 1c ac 85
+  picture:
+  track: true
+
+dc_4f_22_45_5c_d2:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:45:5C:D2
+  name: dc 4f 22 45 5c d2
+  picture:
+  track: true
+
+78_67_d7_19_44_68:
+  hide_if_away: false
+  icon:
+  mac: 78:67:D7:19:44:68
+  name: 78 67 d7 19 44 68
+  picture:
+  track: true
+
+iphone_van_steph:
+  hide_if_away: false
+  icon:
+  mac:
+  name: iPhone van Steph
+  picture:
+  track: true
+
+iphone_jimmy:
+  hide_if_away: false
+  icon:
+  mac:
+  name: iPhone
+  picture:
+  track: true

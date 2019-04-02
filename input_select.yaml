@@ -1,0 +1,65 @@
+  dishwasher_status:
+    name: Vaatwasser Status
+    options:
+      - Idle
+      - Running
+      - Drying
+      - Clean
+      - Power OFF
+    initial: Idle
+  washing_machine_status:
+    name: Wasmachine Status
+    options:
+      - Idle
+      - Running
+      - Finishing
+      - Clean
+      - Power OFF
+    initial: Idle
+  dryer_status:
+    name: Droger Status
+    options:
+      - Idle
+      - Running
+      - Finishing
+      - Clean
+      - Power OFF
+    initial: Idle
+  remote:
+    name: Afstandsbediening
+    options:
+      - Woonkamer
+      - Slaapkamer
+      - Xbox
+    initial: Woonkamer
+  onderhoud:
+    name: Categorie
+    options:
+      - Schoonmaken
+      - Hond
+      - Auto Stephanie
+      - Auto Jimmy
+    initial: Schoonmaken
+  stephanie:
+    name: Categorie
+    options:
+      - Algemeen
+      - Agenda
+    initial: Algemeen
+  jimmy:
+    name: Categorie
+    options:
+      - Algemeen
+      - Agenda
+    initial: Algemeen
+  algemeen:
+    name: Categorie
+    options:
+      - Belangrijke Datums
+      - Washok
+      - Binnenkort op Plex
+      - Plattegrond
+      - Kaart en Locatie
+      - Handige Links
+      - Updates
+      - Overige

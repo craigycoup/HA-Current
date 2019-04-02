@@ -1,0 +1,14 @@
+#  - platform: icloud
+#    username: !secret icloud_user
+#    password: !secret icloud
+#    account_name: iCloud
+#    max_interval: 60
+
+  - platform: tado
+    username: !secret tado_usr
+    password: !secret tado_pwd
+    home_id: 284167
+
+  - platform: upc_connect
+    host: 192.168.0.1
+

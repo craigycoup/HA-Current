@@ -1,0 +1,32 @@
+  badkamer_hass:
+    name: Badkamer Lamp
+    initial: off
+  badkamer_ha2:
+    name: Badkamer Lamp 2
+    initial: off
+  lovelace_animals_tala_showbuttons:
+    name: Tala Show Buttons
+  dummy1:
+    name: Dummy Button 1
+    initial: off
+  dummy2:
+    name: Dummy Button 2
+    initial: off
+  dummy3:
+    name: Dummy Button 3
+    initial: off
+  dummy4:
+    name: Dummy Button 4
+    initial: off
+  dummy_automations:
+    name: Dummy Button 8
+    initial: off
+  dummy5:
+    name: Dummy Button 5
+    initial: off
+  dummy6:
+    name: Dummy Button 6
+    initial: off
+  dummy7:
+    name: Dummy Button 7
+    initial: off

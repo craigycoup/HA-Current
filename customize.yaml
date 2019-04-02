@@ -1,0 +1,177 @@
+light.balkon:
+  hidden: true
+light.toilet:
+  hidden: true
+light.bijkeuken:
+  hidden: true
+sensor.weer_humidity:
+  device_class: humidity
+configurator.sabnzbd:
+  hidden: true
+switch.badkamer_hass:
+  icon: mdi:lightbulb
+  friendly_name: Badkamer
+switch.ventilator:
+  icon: mdi:fan
+switch.afzuigkap:
+  icon: mdi:fan
+light.nachtkastje_stephanie_2:
+  icon: mdi:lamp
+light.nachtkastje_jimmy:
+  icon: mdi:lamp
+switch.pc_van_jimmy:
+  icon: mdi:desktop-classic
+switch.pc_van_stephanie:
+  icon: mdi:desktop-classic
+switch.waterkoker:
+  icon: mdi:coffee-outline
+switch.sony_receiver:
+  icon: mdi:volume-high
+device_tracker.a952efc40d8a4a9f9edda22749ddb02a:
+  friendly_name: Jimmy Schings
+device_tracker.1096239fd231480898ff2b45fc533c0f:
+  friendly_name: Stephanie Schings
+sensor.iphone_battery_level:
+  friendly_name: Batterij iPhone Jimmy
+sensor.iphone_battery_state:
+  friendly_name: Status iPhone Jimmy
+sensor.iphone_van_stephanie:
+  entity_picture: /local/images/stephanie.jpg
+sensor.iphone_jimmy:
+  entity_picture: /local/images/jimmy.jpg
+light.bijkeukenlamp:
+  friendly_name: Bijkeuken
+light.balkonlamp:
+  friendly_name: Balkon
+light.toiletlamp:
+  friendly_name: Toilet
+light.keukenlamp_a:
+  friendly_name: Keuken Lamp A
+light.keukenlamp_b:
+  friendly_name: Keuken Lamp B
+light.keukenlamp_c:
+  friendly_name: Keuken Lamp C
+sensor.tradfri_motion_sensor:
+  device_class: battery
+sensor.tradfri_remote_control:
+  device_class: battery
+sensor.tradfri_remote_control_2:
+  device_class: battery
+device_tracker.iphone_jimmy:
+  friendly_name: Jimmy Schings
+  entity_picture: /local/images/jimmy_small.png
+device_tracker.iphone_van_steph:
+  friendly_name: Stephanie Schings
+  entity_picture: /local/images/stephanie_small.png
+person.stephanie:
+  entity_picture: /local/images/stephanie_small.png
+person.jimmy:
+  entity_picture: /local/images/jimmy_small.png
+sensor.iphone_van_steph_battery_state:
+  friendly_name: Status iPhone Stephanie
+sensor.iphone_van_steph_battery_level:
+  friendly_name: Batterij iPhone Stephanie
+switch.samsung_tv:
+  icon: mdi:television
+light.kleine_kamer_led:
+  friendly_name: Kleine Kamer LEDs
+group.plafond_kleine_kamer:
+  icon: mdi:lightbulb
+group.plafond_keuken:
+  icon: mdi:lightbulb
+group.woonkamer_leds:
+  icon: mdi:lightbulb
+group.slaapkamer_leds:
+  icon: mdi:lightbulb
+light.woonkamer_led_lampen:
+  friendly_name: Woonkamer LEDs
+light.slaapkamer_led_lampen:
+  friendly_name: Slaapkamer LEDs
+light.keuken_spotjes:
+  friendly_name: Keuken Spotjes
+light.keuken:
+  hidden: true
+input_boolean.badkamer_ha:
+  friendly_name: Lamp
+  icon: mdi:lightbulb
+automation.start_homekit:
+  friendly_name: Start Homekit
+automation.remote_turn_off:
+  friendly_name: Als Receiver UIT gaat, ATV Remote UIT
+automation.samsung_tv_turn_on:
+  friendly_name: Als Samsung TV AAN gaat, Receiver AAN
+automation.tv_uit_receiver_uit:
+  friendly_name: Als Samsung TV UIT gaat, Receiver UIT
+automation.afzuiging_notificatie:
+  friendly_name: Als Afzuiging 30 min AAN staat, Verzend Notificatie
+automation.keukenspotjes_aan:
+  friendly_name: Als Keukenlamp AAN gaat, Keuken Spotjes AAN (tussen 19:00 en 06:00)
+automation.keukenlamp_turns_off_keukenspotjes:
+  friendly_name: Als Keukenlamp UIT gaat, Keuken Spotjes UIT
+automation.keuken_bijkeuken:
+  friendly_name: Als Keukenlamp AAN gaat, Bijkeuken Lamp AAN (voor 2 MIN)
+automation.keuken_bijkeuken_uit:
+  friendly_name: Als Keukenlamp UIT gaat, Bijkeuken Lamp UIT
+automation.toiletlamp:
+  friendly_name: Als Toilet Lamp AAN gaat, Slaapkamer Vloer LED AAN (voor 2 MIN)
+automation.badkamer_lamp_om_de_10_minuten_uit:
+  friendly_name: Als Badkamer Lamp AAN gaat, na 10 MIN weer UIT
+automation.badkamer_lamp_om_de_10_script_uit:
+  friendly_name: Als Badkamer Lamp UIT gaat, Badkamer script UIT
+binary_sensor.door_window_sensor_158d000236f9dd:
+  friendly_name: Voordeur
+binary_sensor.door_window_sensor_158d000232ac1b:
+  friendly_name: Slaapkamerdeur
+binary_sensor.door_window_sensor_158d000238644b:
+  friendly_name: Woonkamer Deur
+light.gateway_light_7811dcdef324:
+  friendly_name: Xiaomi Gateway LED
+sensor.illumination_7811dcdef324:
+  friendly_name: Woonkamer Lichtopbrengst
+sensor.temperature_158d00020ed06c:
+  friendly_name: Woonkamer Temperatuur
+sensor.humidity_158d00020ed06c:
+  friendly_name: Woonkamer Luchtvochtigheid
+binary_sensor.motion_sensor_158d00024e687d:
+  friendly_name: Toilet Bewegingssensor
+sensor.illumination_158d00024e687d:
+  friendly_name: Toilet Lichtopbrengst
+media_player.samsung_tv_remote:
+  friendly_name: Samsung TV
+script.badkamer_aanuit:
+  friendly_name: Badkamer om de 10 minuten uit
+binary_sensor.motion_sensor_158d0002b7eec9:
+  friendly_name: Bijkeuken Bewegingssensor
+sensor.illumination_158d0002b7eec9:
+  friendly_name: Bijkeuken Lichtopbrengst
+sensor.humidity_158d0002b546e7:
+  friendly_name: Slaapkamer Luchtvochtigheid
+sensor.temperature_158d0002b546e7:
+  friendly_name: Slaapkamer Temperatuur
+binary_sensor.smoke_sensor_158d000287ab41:
+  friendly_name: Rookmelder Keuken
+sensor.humidity_158d0002b54868:
+  friendly_name: Badkamer Luchtvochtigheid
+sensor.temperature_158d0002b54868:
+  friendly_name: Badkamer Temperatuur
+sensor.pressure_158d0002b546e7:
+  friendly_name: Slaapkamer Luchtdruk
+sensor.pressure_158d0002b54868:
+  friendly_name: Badkamer Luchtdruk
+light.tradfri_bulb_e27_ws_opal_980lm_4:
+  friendly_name: Berging
+sensor.tradfri_remote_control_4:
+  device_class: battery
+sensor.tradfri_remote_control_3:
+  device_class: battery
+sensor.remote_control_4:
+  device_class: battery
+sensor.washing_machine_status:
+  icon: mdi:washing-machine
+sensor.dishwasher_status:
+  icon: mdi:dishwasher
+sensor.dryer_status:
+  icon: mdi:tumble-dryer
+binary_sensor.floorplan:
+  custom_ui_state_card: state-card-floorplan
+  config: !include floorplan.yaml

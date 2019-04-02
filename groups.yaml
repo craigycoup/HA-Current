@@ -1,0 +1,555 @@
+# Views
+  default_view:
+    name: Home
+    view: yes
+    icon: mdi:home
+    entities:
+      - camera.woonkamer_camera
+      - group.alarm_system
+      - group.weer
+      - group.temperatuur
+      - group.humidity
+      - group.device_status
+      - group.calendar_front_page
+      - group.reistijd
+      - group.lights
+      - group.switches
+      - group.lumens
+      - group.smokedetection
+      - group.airpressure
+      - group.doors
+      - group.motion
+  motion:
+    name: Bewegingssensoren
+    entities:
+      - binary_sensor.motion_sensor_158d00024e687d
+      - binary_sensor.motion_sensor_158d0002b7eec9
+  lumens:
+    name: Lichtopbrengst
+    entities:
+      - sensor.illumination_7811dcdef324
+      - sensor.illumination_158d00024e687d
+      - sensor.illumination_158d0002b7eec9
+  smokedetection:
+    name: Rookmelders
+    entities:
+      - binary_sensor.smoke_sensor_158d000287ab41
+  airpressure:
+    name: Luchtdruk
+    entities:
+      - sensor.pressure_158d0002b546e7
+      - sensor.pressure_158d0002b54868
+  doors:
+    name: Raam/Deur Sensoren
+    entities:
+      - binary_sensor.door_window_sensor_158d000236f9dd
+      - binary_sensor.door_window_sensor_158d000238644b
+      - binary_sensor.door_window_sensor_158d000232ac1b
+  rooms:
+    name: Kamers
+    view: yes
+    icon: mdi:floor-plan
+    entities:
+      - group.woonkamer
+      - group.slaapkamer
+      - group.keuken
+      - group.bijkeuken
+      - group.kleinekamer
+      - group.badkamer
+      - group.toilet
+      - group.balkon
+      - group.zones
+  information:
+    name: Informatie
+    view: yes
+    icon: mdi:information
+    entities:
+      - group.informatie
+      - group.sabnzbd
+      - group.sonarr
+      - group.battery
+  media_players:
+    name: Media Players
+    view: yes
+    icon: mdi:play-network
+    entities:
+      - media_player.firefox_2
+      - media_player.samsung_tv_remote
+      - media_player.apple_tv
+      - media_player.woonkamer_apple_tv_7
+      - media_player.horizon_media_box
+      - media_player.slaapkamer_apple_tv_2
+      - group.remotes
+  cameras:
+    name: Camera's
+    view: yes
+    icon: mdi:video
+    entities:
+      - camera.woonkamer_camera
+  automations:
+    name: All Automations
+    view: yes
+    icon: mdi:home-automation
+    entities:
+      - group.general_automations
+      - group.woonkamer_automations
+      - group.slaapkamer_automations
+      - group.keuken_automations
+      - group.badkamer_automations
+      - group.toilet_automations
+# Automation Groups
+  general_automations:
+    name: Algemeen
+    entities:
+      - automation.start_homekit
+      - automation.leds_aan_at_sunset
+      - automation.leds_uit_at_sunrise
+      - automation.turn_on_jimz_pc
+      - automation.turn_on_stephanie_pc
+      - automation.test_notificatie
+  woonkamer_automations:
+    name: Woonkamer
+    entities:
+      - automation.remote_turn_off
+      - automation.samsung_tv_turn_on
+      - automation.tv_uit_receiver_uit
+      - automation.tv_aan_receiver_aan
+  keuken_automations:
+    name: Keuken
+    entities:
+      - automation.afzuiging_notificatie
+      - automation.keukenspotjes_aan
+      - automation.keukenlamp_turns_off_keukenspotjes
+      - automation.keuken_bijkeuken
+      - automation.keuken_bijkeuken_uit
+  slaapkamer_automations:
+    name: Slaapkamer
+    entities:
+      - automation.toiletlamp
+      - automation.leds_if_not_home
+  badkamer_automations:
+    name: Badkamer
+    entities:
+      - automation.badkamer_lamp_om_de_10_minuten_uit
+      - automation.badkamer_lamp_om_de_10_script_uit
+  toilet_automations:
+    name: Toilet Automations
+    entities:
+      - automation.toiletlamp_turn_on
+      - automation.toiletlamp_turn_off
+      - automation.toiletlamp
+# All Lights and Switches
+  lights:
+    name: Verlichting
+    icon: mdi:lightbulb-outline
+    entities:
+      - group.keukenlights
+      - group.bijkeukenlights
+      - group.toiletlights
+      - group.balkonlights
+      - group.kleinekamerlights
+      - group.slaapkamerlights
+      - group.woonkamerlights
+      - group.badkamerlights
+  switches:
+    name: Schakelaars
+    icon: mdi:toggle-switch
+    entities:
+      - group.woonkamerswitches
+      - group.keukenswitches
+      - group.kleinekamerswitches
+      - group.slaapkamerswitches
+  all_leds:
+    name: Alle LED Lampen
+    entities:
+      - light.slaapkamer_led_lampen
+      - light.office_led
+      - light.woonkamer_led_lampen
+      - light.gateway_light_7811dcdef324
+# Rooms
+  woonkamer:
+    name: Woonkamer
+    icon: mdi:sofa
+    entities:
+      - light.woonkamer_led_lampen
+      - light.vloerlamp
+      - light.tafellampje
+      - light.gateway_light_7811dcdef324
+      - switch.receiver
+      - switch.samsung_tv
+  keuken:
+    name: Keuken
+    icon: mdi:fridge
+    entities:
+      - light.keuken
+      - light.keukenspots
+      - group.plafond_keuken
+      - switch.waterkoker
+      - switch.afzuigkap
+  slaapkamer:
+    name: Slaapkamer
+    icon: mdi:hotel
+    entities:
+      - light.nachtkastje_jimmy
+      - light.nachtkastje_stephanie_2
+      - light.slaapkamer_led_lampen
+      - switch.ventilator
+  kleinekamer:
+    name: Kleine Kamer
+    icon: mdi:desktop-classic
+    entities:
+      - light.officeled
+      - group.plafond_kleine_kamer
+      - switch.pc_van_stephanie
+      - switch.pc_van_jimmy
+  balkon:
+    name: Balkon
+    icon: mdi:beach
+    entities:
+      - light.balkonlamp
+  bijkeuken:
+    name: Bijkeuken
+    icon: mdi:washing-machine
+    entities:
+      - light.bijkeukenlamp
+  badkamer:
+    name: Badkamer
+    icon: mdi:shower-head
+    entities:
+      - input_boolean.badkamer_ha
+  toilet:
+    name: Toilet
+    icon: mdi:human-male-female
+    entities:
+      - light.toiletlamp
+  zones:
+    name: Zones
+    entities:
+      - binary_sensor.floorplan
+# Groups
+  alle_verlichting:
+    name: Alle Verlichting
+    entities:
+      - light.vloerlamp_2
+      - light.tafel_lamp
+      - light.woonkamer_plafond
+      - light.eettafel_lamp
+      - light.woonkamer_led_lampen
+      - light.gateway_light_7811dcdef324
+      - light.keukenspots_2
+      - light.keukenlamp_a
+      - light.keukenlamp_b
+      - light.keukenlamp_c
+      - light.nachtkastje_jimmy
+      - light.nachtkastje_stephanie_2
+      - light.slaapkamer_led_lampen
+      - light.officeled
+      - light.kleine_kamer_lamp_a
+      - light.kleine_kamer_lamp_b
+      - light.kleine_kamer_lamp_c
+      - light.bijkeukenlamp
+      - light.toiletlamp
+      - switch.kh01cn
+      - light.tradfri_bulb_e27_ws_opal_980lm_4
+      - light.balkonlamp
+  schoonmaken:
+    name: Schoonmaken
+    entities:
+      - light.vloerlamp_2
+      - light.tafel_lamp
+      - light.woonkamer_plafond
+      - light.eettafel_lamp
+      - light.woonkamer_led_lampen
+      - light.gateway_light_7811dcdef324
+      - light.keukenspots_2
+      - light.keukenlamp_a
+      - light.keukenlamp_b
+      - light.keukenlamp_c
+      - light.nachtkastje_jimmy
+      - light.nachtkastje_stephanie_2
+      - light.slaapkamer_led_lampen
+      - light.officeled
+      - light.kleine_kamer_lamp_a
+      - light.kleine_kamer_lamp_b
+      - light.kleine_kamer_lamp_c
+      - light.bijkeukenlamp
+      - light.toiletlamp
+      - switch.kh01cn
+  all_devices_and_lights:
+    name: Alle Apparaten en Lampen
+    entities:
+      - light.vloerlamp_2
+      - light.tafel_lamp
+      - light.woonkamer_plafond
+      - light.eettafel_lamp
+      - light.woonkamer_led_lampen
+      - light.gateway_light_7811dcdef324
+      - light.keukenspots_2
+      - light.nachtkastje_jimmy
+      - light.nachtkastje_stephanie_2
+      - light.slaapkamer_led_lampen
+      - light.officeled
+      - light.kleine_kamer_plafondlampen
+      - light.keuken_plafondlampen
+      - light.bijkeukenlamp
+      - light.toiletlamp
+      - light.balkonlamp
+      - light.tradfri_bulb_e27_ws_opal_980lm_4
+      - switch.wasmachine
+      - switch.vaatwasser
+      - switch.droger
+      - switch.kh01cn
+      - switch.receiver_2
+      - switch.waterkoker_2
+      - switch.afzuigkap_2
+      - switch.air_fryer_2
+      - switch.printer_2
+      - switch.ventilator_2
+      - media_player.samsung_tv_remote
+      - media_player.woonkamer_apple_tv_7_remote
+      - media_player.xbox_one
+  all_switches_1:
+    name: Alle Apparaten
+    entities:
+      - switch.receiver_2
+      - media_player.samsung_tv_remote
+      - media_player.woonkamer_apple_tv_7_remote
+      - switch.waterkoker_2
+      - switch.afzuigkap_2
+      - switch.air_fryer_2
+      - switch.printer_2
+      - switch.ventilator
+      - switch.wasmachine
+      - switch.vaatwasser
+      - switch.droger
+  keukendevices:
+    name: Keuken Apparaten
+    icon: mdi:flash
+    entities:
+      - light.keukenspots
+      - light.keukenlamp_a
+      - light.keukenlamp_b
+      - light.keukenlamp_c
+      - switch.waterkoker_2
+      - switch.afzuigkap_2
+      - switch.air_fryer_2
+  woonkamerlights:
+    name: Woonkamer Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - light.vloerlamp_2
+      - light.tafel_lamp
+      - light.woonkamer_plafond
+      - light.eettafel_lamp
+      - light.woonkamer_led_lampen
+      - light.gateway_light_7811dcdef324
+  keukenlights:
+    name: Keuken Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - light.keukenspots
+      - light.keukenlamp_a
+      - light.keukenlamp_b
+      - light.keukenlamp_c
+  slaapkamerlights:
+    name: Slaapkamer Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - light.nachtkastje_jimmy
+      - light.nachtkastje_stephanie_2
+      - light.slaapkamer_led_lampen
+  nachtkastjes:
+    name: Slaapkamer Nachtkastjes
+    icon: mdi:lightbulb
+    entities:
+      - light.nachtkastje_jimmy
+      - light.nachtkastje_stephanie_2
+  kleinekamerlights:
+    name: Kleine Kamer Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - light.officeled
+      - light.kleine_kamer_lamp_a
+      - light.kleine_kamer_lamp_b
+      - light.kleine_kamer_lamp_c
+  balkonlights:
+    name: Balkon Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - light.balkonlamp
+  bijkeukenlights:
+    name: Bijkeuken Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - light.bijkeukenlamp
+  toiletlights:
+    name: Toilet Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - light.toiletlamp
+  badkamerlights:
+    name: Badkamer Verlichting
+    icon: mdi:lightbulb
+    entities:
+      - input_boolean.badkamer_ha
+  woonkamerswitches:
+    name: Woonkamer Schakelaars
+    entities:
+      - switch.receiver
+      - switch.samsung_tv
+  keukenswitches:
+    name: Keuken Schakelaars
+    entities:
+      - switch.waterkoker
+      - switch.afzuigkap
+  kleinekamerswitches:
+    name: Kleine Kamer Schakelaars
+    entities:
+      - switch.pc_van_stephanie
+      - switch.pc_van_jimmy
+  slaapkamerswitches:
+    name: Slaapkamer Schakelaars
+    entities:
+      - switch.ventilator
+  slaapkamer_leds:
+    name: Led Lampen
+    entities:
+      - light.bedled
+      - light.vloerled
+  calendar_front_page:
+    name: Kalenders
+    entities:
+      - calendar.schings
+      - calendar.jimmy
+      - calendar.stephanie
+      - calendar.holiday
+  reistijd:
+    name: Reistijden
+    entities:
+      - sensor.reistijd_werk_jimmy
+      - sensor.reistijd_werk_stephanie
+  sunset_sunrise_leds:
+    name: Ledlampen die aan/uit gaan sunset/sunrise
+    entities:
+      - light.woonkamer_led_lampen
+      - light.officeled
+# Device Trackers
+  device_status:
+    name: Status en Locatie
+    entities:
+      - person.jimmy
+      - person.stephanie
+  battery:
+    name: Batterij Status
+    entities:
+      - sensor.tradfri_remote_control
+      - sensor.tradfri_remote_control_2
+      - sensor.tradfri_motion_sensor
+  weer:
+    name: Weer & Tijd
+    entities:
+      - sensor.time
+      - sun.sun
+      - sensor.moon
+      - sensor.weer_condition
+      - sensor.weer_current
+      - sensor.weer_temperature
+      - sensor.weer_humidity
+      - sensor.weer_temperature_min
+      - sensor.weer_temperature_max
+      - sensor.weer_pressure
+      - sensor.weer_visibility
+  temperatuur:
+    name: Temperatuur
+    entities:
+      - sensor.keuken_temperatuur
+      - sensor.woonkamer_temperatuur
+      - sensor.temperature_158d00020ed06c
+      - sensor.temperature_158d0002b546e7
+      - sensor.temperature_158d0002b54868
+  humidity:
+    name: Luchtvochtigheid
+    entities:
+      - sensor.keuken_luchtvochtigheid
+      - sensor.woonkamer_luchtvochtigheid
+      - sensor.humidity_158d00020ed06c
+      - sensor.humidity_158d0002b546e7
+      - sensor.humidity_158d0002b54868
+  informatie:
+    name: Informatie
+    icon: mdi:information-variant
+    entities:
+      - sensor.postnl
+      - sensor.ssl_certificate_expiry
+      - sensor.breaches_jimzzoutlookcom
+      - sensor.breaches_s_vanduuren5hotmailnl
+  sabnzbd:
+    name: SabNZBd
+    entities:
+      - sensor.sabnzbd_status
+      - sensor.sabnzbd_speed 
+      - sensor.sabnzbd_queue
+      - sensor.sabnzbd_queue_count
+      - sensor.sabnzbd_left
+      - sensor.sabnzbd_disk
+      - sensor.sabnzbd_disk_free
+      - sensor.sabnzbd_total
+  sonarr:
+    name: Sonarr
+    entities:
+      - sensor.sonarr_series
+      - sensor.sonarr_upcoming
+      - sensor.sonarr_queue
+      - sensor.sonarr_wanted
+      - sensor.sonarr_disk_space
+  remotes:
+    name: Remotes
+    entities:
+      - remote.slaapkamer_apple_tv_2
+      - remote.woonkamer_apple_tv_7
+  alarm_system:
+    name: Alarm Systeem
+    entities:
+      - alarm_control_panel.home_alarm
+  device_status_2:
+    name: Tado iPhone Tracker
+    entities:
+      - device_tracker.jimmys_iphone
+      - device_tracker.stephanies_iphone
+  energy_kwh:
+    name: Energy Sensors
+    entities:
+      - sensor.droger_energy_today
+      - sensor.vaatwasser_energy_today
+      - sensor.wasmachine_energy_today
+
+  samsung_tv:
+    name: Samsung TV
+    entities:
+      - media_player.samsung_tv_remote
+      - media_player.woonkamer_apple_tv_7
+      - remote.woonkamer_apple_tv_7
+      - switch.receiver_2
+
+  film_kijken_automation:
+    name: Film Kijken
+    entities:
+      - automation.media_player_playing
+      - automation.media_player_paused_stopped
+
+  vaatwasser_starten:
+    name: Vaatwasser Starten
+    entities:
+      - automation.vaatwasser_starten_na_drogen
+      - automation.vaatwasser_starten_na_wassen
+
+  deur_notifications:
+    name: Deur Bericht
+    entities:
+      - automation.woonkamer_alert_closed
+      - automation.woonkamer_deur_alert_opened
+      - automation.voordeur_alert_opened
+      - automation.voordeur_alert_closed
+      - automation.slaapkamer_alert_closed
+      - automation.slaapkamer_deur_alert_opened
+

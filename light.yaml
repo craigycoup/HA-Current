@@ -1,0 +1,61 @@
+
+  - platform: group
+    name: Woonkamer LED Lampen
+    entities:
+      - light.tvled
+      - light.dressoirled
+      - light.bankled
+
+  - platform: group
+    name: Slaapkamer LED Lampen
+    entities:
+      - light.bedled
+      - light.vloerled
+
+  - platform: group
+    name: Alle Woonkamer Verlichting
+    entities:
+      - light.vloerlamp_2
+      - light.tafel_lamp
+      - light.woonkamer_plafond
+      - light.eettafel_lamp
+      - light.woonkamer_led_lampen
+      - light.gateway_light_7811dcdef324
+
+  - platform: group
+    name: Alle Keuken Verlichting
+    entities:
+      - light.keukenspots
+      - light.keukenlamp_a
+      - light.keukenlamp_b
+      - light.keukenlamp_c
+      - light.bijkeukenlamp
+
+  - platform: group
+    name: Alle Slaapkamer Verlichting
+    entities:
+      - light.nachtkastje_jimmy
+      - light.nachtkastje_stephanie_2
+      - light.slaapkamer_led_lampen
+
+  - platform: group
+    name: Alle Kleine Kamer Verlichting
+    entities:
+      - light.officeled
+      - light.kleine_kamer_lamp_a
+      - light.kleine_kamer_lamp_b
+      - light.kleine_kamer_lamp_c
+
+  - platform: group
+    name: Kleine Kamer Plafondlampen
+    entities:
+      - light.kleine_kamer_lamp_a
+      - light.kleine_kamer_lamp_b
+      - light.kleine_kamer_lamp_c
+
+  - platform: group
+    name: Keuken Plafondlampen
+    entities:
+      - light.keukenlamp_a
+      - light.keukenlamp_b
+      - light.keukenlamp_c
